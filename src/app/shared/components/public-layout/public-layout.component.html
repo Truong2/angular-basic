@@ -1,0 +1,31 @@
+<main class="public-layout overflow-hidden">
+  <!-- Logo positioned absolutely in top-left -->
+  <div class="absolute top-8 left-8 z-10">
+    <img src="/logo.svg" alt="nakamairu" class="h-10 w-auto" />
+  </div>
+
+  <div class="content px-6 grid grid-cols-2 gap-8 items-center min-h-screen">
+    <!-- Left side - Illustration -->
+    <div class="flex justify-center items-center">
+      <img
+        src="/logo-hero.png"
+        alt="Taxi Booking Illustration"
+        class="max-w-full h-auto max-h-[500px] object-contain"
+      />
+    </div>
+
+    <!-- Right side - Sign In Form -->
+    <div class="flex justify-center items-center">
+      <div class="bg-white px-12 py-14 w-full min-w-[400px] max-w-[60%]">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+  <footer class="fixed bottom-0 left-8 flex items-center gap-1 content-13 text-neutral800">
+    <span>
+      <span class="font-bold text-neutral900">© 2024</span>
+      All rights reserved
+    </span>
+  </footer>
+</main>
