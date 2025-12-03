@@ -1,0 +1,18 @@
+export const ROUTE_URL = {
+  HOME: '',
+  LOGIN: 'login',
+  RESET_PASSWORD: 'reset-password',
+  ICONS: 'icons',
+  PROFILE: 'profile',
+  ERROR: '404',
+  USER: 'user',
+  USER_DETAIL: 'user/:id',
+  DRIVER: 'driver',
+  DRIVER_CREATE: 'driver/create',
+  DRIVER_EDIT: 'driver/edit/:id',
+  DRIVER_CREATE_MULTIPLE: 'driver/create-multiple',
+  DRIVER_DETAIL: 'driver/:id',
+  BOOKING: 'booking',
+  BOOKING_DETAIL: 'booking/:id',
+  NOT_FOUND: '404',
+};

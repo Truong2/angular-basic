@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-public-layout',
   standalone: true,
   imports: [RouterOutlet, CommonModule],
-  templateUrl: './public-layout.component.html',
-  styleUrl: './public-layout.component.css',
+  templateUrl: './public-layout.html',
+  styleUrl: './public-layout.css',
 })
-export class PublicLayoutComponent {}
+export class AppPublicLayout {}

@@ -1,13 +1,14 @@
 import { Routes } from '@angular/router';
 import { AuthGuard } from './core/guards/auth.guard';
 import { GuestGuard } from './core/guards/guest.guard';
-import { PublicLayoutComponent } from './shared/components/public-layout/public-layout.component';
 import { LoginComponent } from './features/login/login.component';
+import { ROUTE_URL } from './core/constants/router.constant';
+import { AppPublicLayout } from './layouts/public/public-layout';
 
 export const routes: Routes = [
   {
-    path: 'login',
-    component: PublicLayoutComponent,
+    path: ROUTE_URL.LOGIN,
+    component: AppPublicLayout,
     canActivate: [GuestGuard],
     children: [
       {
