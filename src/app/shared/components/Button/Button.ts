@@ -81,7 +81,6 @@ export class ButtonComponent {
   }
 
   private getSizeClasses(): string {
-    // Using arbitrary values for custom padding (21px, 19px) and standard p-12 (3rem from spacing config)
     const sizeMap: Record<NzSizeLDSType, string> = {
       large: '!p-[21px] !w-full',
       default: '!p-[19px] !w-full',

@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
 import { AuthGuard } from './core/guards/auth.guard';
 import { GuestGuard } from './core/guards/guest.guard';
-import { LoginComponent } from './features/login/login.component';
+import { LoginComponent } from './features/login/login';
 import { ROUTE_URL } from './core/constants/router.constant';
 import { AppPublicLayout } from './layouts/public/public-layout';
 

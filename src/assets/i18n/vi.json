@@ -1,0 +1,49 @@
+{
+  "common": {
+    "login": "Đăng nhập",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "forgotPassword": "Quên mật khẩu?",
+    "submit": "Gửi",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "reset": "Đặt lại",
+    "confirm": "Xác nhận",
+    "welcome": "Chào mừng đến với Màn hình Quản lý Điều phối Taxi!",
+    "language": "Ngôn ngữ",
+    "currentLanguage": "Ngôn ngữ hiện tại"
+  },
+  "language": {
+    "en": "English",
+    "vi": "Tiếng Việt",
+    "ja": "日本語"
+  },
+  "label": {
+    "email": "Email",
+    "password": "Mật khẩu",
+    "emailPlaceholder": "Vui lòng nhập email của bạn",
+    "passwordPlaceholder": "Vui lòng nhập mật khẩu của bạn"
+  },
+  "message": {
+    "E1": "{{field}} là bắt buộc",
+    "E2": "{{field}} định dạng không đúng",
+    "E3": "Vui lòng nhập ít nhất {{min}} ký tự",
+    "E4": "Vui lòng nhập tối đa {{max}} ký tự",
+    "loginSuccess": "Đăng nhập thành công",
+    "loginError": "Đăng nhập thất bại. Vui lòng kiểm tra thông tin đăng nhập.",
+    "networkError": "Lỗi mạng. Vui lòng thử lại.",
+    "unknownError": "Đã xảy ra lỗi không xác định"
+  },
+  "validation": {
+    "required": "Trường này là bắt buộc",
+    "email": "Vui lòng nhập địa chỉ email hợp lệ",
+    "minLength": "Vui lòng nhập ít nhất {{min}} ký tự",
+    "maxLength": "Vui lòng nhập tối đa {{max}} ký tự",
+    "pattern": "Vui lòng nhập đúng định dạng",
+    "checkInput": "Vui lòng kiểm tra thông tin nhập vào"
+  }
+}

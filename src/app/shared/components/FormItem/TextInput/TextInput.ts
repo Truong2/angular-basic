@@ -4,7 +4,7 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR, FormsModule } from '@angular/f
 import { NzInputModule } from 'ng-zorro-antd/input';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzSizeLDSType } from 'ng-zorro-antd/core/types';
-import { LENGTH_CONSTANTS } from '../../../../core/constants/length.constant';
+import { LENGTH_CONSTANTS } from '@/core/constants/length.constant';
 
 @Component({
   standalone: true,

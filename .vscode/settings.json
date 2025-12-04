@@ -1,0 +1,6 @@
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.paths": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

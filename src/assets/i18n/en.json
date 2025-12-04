@@ -1,0 +1,49 @@
+{
+  "common": {
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot your password?",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "confirm": "Confirm",
+    "welcome": "Welcome to the Taxi Dispatch Management Screen!",
+    "language": "Language",
+    "currentLanguage": "Current Language"
+  },
+  "language": {
+    "en": "English",
+    "vi": "Tiếng Việt",
+    "ja": "日本語"
+  },
+  "label": {
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "Please enter your email",
+    "passwordPlaceholder": "Please enter your password"
+  },
+  "message": {
+    "E1": "{{field}} is required",
+    "E2": "{{field}} format is incorrect",
+    "E3": "Please enter at least {{min}} characters",
+    "E4": "Please enter no more than {{max}} characters",
+    "loginSuccess": "Login successful",
+    "loginError": "Login failed. Please check your credentials.",
+    "networkError": "Network error. Please try again.",
+    "unknownError": "An unknown error occurred"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Please enter a valid email address",
+    "minLength": "Please enter at least {{min}} characters",
+    "maxLength": "Please enter no more than {{max}} characters",
+    "pattern": "Please enter in the correct format",
+    "checkInput": "Please check your input"
+  }
+}

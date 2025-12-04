@@ -1,68 +1,99 @@
-.text-input-wrapper {
+:host {
   display: block;
   width: 100%;
+}
+
+.text-input-wrapper {
+  display: block !important;
+  width: 100% !important;
+  position: relative !important;
 
   .input-container {
-    position: relative;
-    width: 100%;
+    position: relative !important;
+    width: 100% !important;
+    display: block !important;
 
     &.has-password-toggle {
-      input {
-        padding-right: 40px !important;
+      ::ng-deep {
+        .ant-input,
+        input[nz-input],
+        input {
+          padding-right: 40px !important;
+        }
       }
     }
 
+    .custom-input,
     input {
-      font-weight: 500;
-      font-size: 14px;
-      height: 40px;
-      line-height: 1.2;
-      color: #000;
-      background: #fff;
-      outline: none;
-      box-shadow: none;
-      border: 1px solid #e0e0e0;
-      width: 100%;
-      padding: 8px 12px;
-      border-radius: 8px;
-      display: block;
-      visibility: visible;
-      opacity: 1;
+      font-weight: 500 !important;
+      font-size: 14px !important;
+      height: 40px !important;
+      line-height: 1.2 !important;
+      color: #000 !important;
+      background: #fff !important;
+      outline: none !important;
+      box-shadow: none !important;
+      border: 1px solid #e0e0e0 !important;
+      width: 100% !important;
+      padding: 8px 12px !important;
+      border-radius: 8px !important;
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      position: relative !important;
+      z-index: 1 !important;
 
       &::placeholder {
-        color: #999;
+        color: #999 !important;
+        opacity: 1 !important;
+      }
+
+      &::-webkit-input-placeholder {
+        color: #999 !important;
+        opacity: 1 !important;
+      }
+
+      &::-moz-placeholder {
+        color: #999 !important;
+        opacity: 1 !important;
+      }
+
+      &:-ms-input-placeholder {
+        color: #999 !important;
+        opacity: 1 !important;
       }
 
       &:hover {
-        border-color: #d0d0d0;
+        border-color: #d0d0d0 !important;
       }
 
       &:focus {
-        outline: none;
-        box-shadow: none;
-        border-color: #00816e;
+        outline: none !important;
+        box-shadow: none !important;
+        border-color: #00816e !important;
       }
 
       &:active {
-        outline: none;
-        box-shadow: none;
+        outline: none !important;
+        box-shadow: none !important;
       }
     }
 
     .password-toggle {
-      position: absolute;
-      right: 12px;
-      top: 50%;
-      transform: translateY(-50%);
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      color: #999;
-      transition: color 0.3s;
-      z-index: 10;
+      position: absolute !important;
+      right: 12px !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      cursor: pointer !important;
+      display: flex !important;
+      align-items: center !important;
+      color: #999 !important;
+      transition: color 0.3s !important;
+      z-index: 10 !important;
+      pointer-events: auto !important;
 
       &:hover {
-        color: #666;
+        color: #666 !important;
       }
     }
   }

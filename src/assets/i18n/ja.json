@@ -1,0 +1,49 @@
+{
+  "common": {
+    "login": "ログイン",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "forgotPassword": "パスワードをお忘れですか?",
+    "submit": "送信",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "search": "検索",
+    "filter": "フィルター",
+    "reset": "リセット",
+    "confirm": "確認",
+    "welcome": "タクシー配車管理画面へようこそ!",
+    "language": "言語",
+    "currentLanguage": "現在の言語"
+  },
+  "language": {
+    "en": "English",
+    "vi": "Tiếng Việt",
+    "ja": "日本語"
+  },
+  "label": {
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "passwordPlaceholder": "パスワードを入力してください"
+  },
+  "message": {
+    "E1": "{{field}}は必須です",
+    "E2": "{{field}}の形式が正しくありません",
+    "E3": "{{min}}文字以上で入力してください",
+    "E4": "{{max}}文字以内で入力してください",
+    "loginSuccess": "ログイン成功",
+    "loginError": "ログインに失敗しました。認証情報を確認してください。",
+    "networkError": "ネットワークエラー。もう一度お試しください。",
+    "unknownError": "不明なエラーが発生しました"
+  },
+  "validation": {
+    "required": "この項目は必須です",
+    "email": "正しいメールアドレスを入力してください",
+    "minLength": "{{min}}文字以上で入力してください",
+    "maxLength": "{{max}}文字以内で入力してください",
+    "pattern": "正しい形式で入力してください",
+    "checkInput": "入力内容を確認してください"
+  }
+}

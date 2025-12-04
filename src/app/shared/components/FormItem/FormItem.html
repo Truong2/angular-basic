@@ -1,0 +1,21 @@
+<div class="form-item" [ngClass]="getContainerClasses()">
+  <label *ngIf="label" class="form-item__label">
+    <span [innerHTML]="label"></span>
+    <span *ngIf="required" class="form-item__required">*</span>
+    <ng-container *ngIf="labelTooltip">
+      <span class="form-item__tooltip" [innerHTML]="labelTooltip"></span>
+    </ng-container>
+  </label>
+
+  <div *ngIf="description" class="form-item__description" [innerHTML]="description"></div>
+
+  <ng-content></ng-content>
+
+  <div
+    *ngIf="showError && invalid && (control?.dirty || control?.touched)"
+    class="form-item__error"
+    [class]="errorClassName"
+  >
+    {{ firstErrorMessage }}
+  </div>
+</div>
