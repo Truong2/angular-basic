@@ -1,24 +1,38 @@
 <div class="login-container">
-  <h1 class="login-title">Login</h1>
-  <p class="login-subtitle">Welcome to the Taxi Dispatch Management Screen!</p>
+  <h1 class="login-title">{{ 'common.login' | translate }}</h1>
+  <p class="login-subtitle">{{ 'common.welcome' | translate }}</p>
 
   <form [formGroup]="loginForm" (ngSubmit)="handleLogin()" class="login-form">
-    <app-form-item controlName="email" label="Email" [required]="true">
-      <app-text-input formControlName="email" placeholder="Please enter your email" type="email">
+    <app-form-item
+      controlName="email"
+      [label]="'label.email' | translate"
+      [required]="true"
+    >
+      <app-text-input
+        formControlName="email"
+        type="email"
+        [placeholder]="'label.emailPlaceholder' | translate"
+      >
       </app-text-input>
     </app-form-item>
 
-    <app-form-item controlName="password" label="Password" [required]="true">
+    <app-form-item
+      controlName="password"
+      [label]="'label.password' | translate"
+      [required]="true"
+    >
       <app-text-input
         formControlName="password"
         type="password"
-        placeholder="Please enter your password"
+        [placeholder]="'label.passwordPlaceholder' | translate"
       >
       </app-text-input>
     </app-form-item>
 
     <div class="forgot-password">
-      <a href="#" class="forgot-password-link">Forgot your password?</a>
+      <a href="#" class="forgot-password-link">
+        {{ 'common.forgotPassword' | translate }}
+      </a>
     </div>
 
     <app-button
@@ -28,7 +42,7 @@
       [disabled]="loginForm.invalid || isLoading"
       [loading]="isLoading"
     >
-      Login
+      {{ 'common.login' | translate }}
     </app-button>
   </form>
 </div>

@@ -15,7 +15,8 @@
     "confirm": "Confirm",
     "welcome": "Welcome to the Taxi Dispatch Management Screen!",
     "language": "Language",
-    "currentLanguage": "Current Language"
+    "currentLanguage": "Current Language",
+    "allRightsReserved": "All rights reserved"
   },
   "language": {
     "en": "English",

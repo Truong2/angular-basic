@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from '@ngx-translate/core';
 import { ButtonComponent } from '@/shared/components/Button/Button';
 import { TextInputComponent } from '@/shared/components/FormItem/TextInput/TextInput';
 import { FormItemComponent } from '@/shared/components/FormItem/FormItem';
@@ -12,6 +13,7 @@ import { createLoginSchema } from '@/core/validators/validation.schema';
   imports: [
     CommonModule,
     ReactiveFormsModule,
+    TranslateModule,
     ButtonComponent,
     TextInputComponent,
     FormItemComponent,

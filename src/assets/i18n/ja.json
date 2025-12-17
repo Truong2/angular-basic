@@ -15,7 +15,8 @@
     "confirm": "確認",
     "welcome": "タクシー配車管理画面へようこそ!",
     "language": "言語",
-    "currentLanguage": "現在の言語"
+    "currentLanguage": "現在の言語",
+    "allRightsReserved": "全著作権所有"
   },
   "language": {
     "en": "English",
